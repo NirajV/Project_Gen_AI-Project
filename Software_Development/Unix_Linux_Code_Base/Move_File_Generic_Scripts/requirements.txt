@@ -1,0 +1,5 @@
+# This project relies only on the Python Standard Library.
+# No external packages are required to run move_files.py.
+#
+# Standard libraries used:
+# os, sys, shutil, argparse, datetime

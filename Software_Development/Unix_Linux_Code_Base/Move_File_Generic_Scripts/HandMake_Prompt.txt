@@ -1,0 +1,98 @@
+Prompt :- 1
+
+Need to create the Python scripts that Move the File from one location to other.
+
+
+
+Source Path - C:\Users\niraj\OneDrive\SFTP\Inbound\Sales
+Target Path - C:\Users\niraj\OneDrive\SFTP\Archive\Sales
+
+Based on the Data File Add TimeStamp in the Filename so I can trace back 
+
+------------------------------------------------------------------------------
+
+Prompt :- 2
+
+Add Feature - Under C:\Users\niraj\Project_Gen_AI\Project\Software_Development\Unix_Linux_Code_Base create new folder "Log" and for Each run create a log file based on the Source File Name +TimeStamp.log
+
+------------------------------------------------------------------------------
+
+Prompt :- 3
+
+Add Feature that Source File Path /Target File Path and Log File path should be parameterized and I will pass these values from move_files.py
+
+------------------------------------------------------------------------------
+
+Prompt :- 4
+
+Give me the Final python command based on the existing code to run in the Terminal
+
+-------------------------------------------------------------------------------
+
+Prompt :- 5
+
+I need python move_files.py --Source_File_Path -- Target_File_Path -- Log_File_Path Scripts
+
+This is Failed - Not impletemented 
+
+-------------------------------------------------------------------
+Prompt :- 6
+
+I passed source_path/target_path and log_path from move_files.py scripts
+ Command Below :- 
+python move_files.py --source_path "C:\Users\niraj\OneDrive\SFTP\Inbound\Sales" --target_path "C:\Users\niraj\OneDrive\SFTP\Archive\Sales" --log_path "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\Unix_Linux_Code_Base\Log"
+
+move_files.py [-h] --source_path SOURCE_PATH --target_path TARGET_PATH --log_path LOG_PATH
+
+---------------------------------------------------------------------
+
+Prompt :- 7
+
+In the Log Folder - Program should create automatic folder based on the Source Last folder in this Case "C:\Users\niraj\OneDrive\SFTP\Inbound\Sales" - Sales folder should create in the Log folder and all the logs goes to that folder 
+
+----------------------------------------------------------------------
+
+Prompt :- 8
+
+Add Fetaure - log file name based on the source file name 
+
+-----------------------------------------------------------------------
+Prompt :- 9
+Based on the current code base create the README.md Markdowm file for future reference comprehensively
+
+-------------------------------------------------------------------------
+
+Prompt :- 10
+
+Add Feature - Created a seperate visual enviornment for this work... All the code should run under visual envirnment 
+
+-------------------------------------------------------------------------
+
+Prompt :- 11
+
+Add Feature - Provide me the Requiement_Prerequisites.txt so I will run under Python Virtual Environment to configue or install all package and libarary 
+
+---------------------------------------------------------------------------
+
+Prompt :- 12
+
+Create the based on the code and MD Human Readable Simple English Laguage Prompt TXT that help me to use to create same code using this Prompts
+
+----------------------------------------------------------------------------
+
+Prompt :- 13
+
+I feature .. I can run the move_files.py concurrent for 10 folder files and do not get ant dead lock in the move_files.py
+
+------------------------------------------------------------------
+Prompt :- 14
+
+Need to test Concurrency Process and do the Stress Test
+
+-------------------------------------------------------------------
+
+Prompt :- 15
+
+Now Updated READMe.md Files
+
+
