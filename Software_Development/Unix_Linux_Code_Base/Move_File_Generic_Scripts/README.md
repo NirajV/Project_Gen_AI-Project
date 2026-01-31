@@ -12,6 +12,7 @@ This Python script (`move_files.py`) automates the process of moving files from 
     *   Log files are named using the source folder name and a timestamp (e.g., `Sales_20231027_123000.log`).
     *   Captures both standard output (`stdout`) and errors (`stderr`).
 *   **Parameterized Execution**: Source, Target, and Log paths are passed as command-line arguments, making the script reusable for different workflows.
+*   **Concurrency Safe**: Supports running multiple instances simultaneously (e.g., for different folders) by using process-safe directory creation and unique log filenames (Timestamp + Process ID).
 
 ## Prerequisites
 
@@ -64,7 +65,7 @@ You want to move files from an "Inbound/Sales" folder to an "Archive/Sales" fold
 
 **Command**:
 ```powershell
-python move_files.py --source_path "C:\Users\niraj\OneDrive\SFTP\Inbound\Sales" --target_path "C:\Users\niraj\OneDrive\SFTP\Archive\Sales" --log_path "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\Unix_Linux_Code_Base\Log"
+python move_files.py --source_path "C:\Users\niraj\OneDrive\SFTP\Inbound\Sales" --target_path "C:\Users\niraj\OneDrive\SFTP\Archive\Sales" --log_path "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\Unix_Linux_Code_Base\Move_File_Generic_Scripts\Log"
 ```
 
 **Execution Flow**:
@@ -83,3 +84,18 @@ python move_files.py --source_path "C:\Users\niraj\OneDrive\SFTP\Inbound\Sales" 
 *   **Missing Directories**: If the target directory or log directory does not exist, the script attempts to create them automatically.
 *   **File Errors**: If a specific file cannot be moved (e.g., permission issues), the error is logged, and the script continues processing the remaining files.
 *   **Critical Failures**: If the log file cannot be created, the script prints a fatal error to the console and exits immediately.
+
+## Stress Testing & Concurrency
+
+A stress test script (`stress_test.py`) is included to verify that the file mover handles multiple concurrent executions without data loss or deadlocks.
+
+**To run the stress test:**
+```bash
+python stress_test.py
+```
+
+**What it does:**
+1.  Creates a temporary `Stress_Test_Area` folder.
+2.  Generates 10 source folders with 50 dummy files each.
+3.  Launches 10 instances of `move_files.py` simultaneously.
+4.  Verifies that all files were moved successfully and logs were created.

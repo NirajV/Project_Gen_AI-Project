@@ -8,8 +8,7 @@ def setup_logging(log_dir, log_prefix=None):
     Sets up logging to a file in the specified directory.
     """
     # Create the log directory if it doesn't exist
-    if not os.path.exists(log_dir):
-        os.makedirs(log_dir)
+    os.makedirs(log_dir, exist_ok=True)
 
     # Generate a timestamp for the log file
     TIMESTAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -19,7 +18,9 @@ def setup_logging(log_dir, log_prefix=None):
         log_prefix = os.path.basename(__file__).replace('.py', '')
 
     # Create the full log file name
-    LOG_FILENAME = f"{log_prefix}_{TIMESTAMP}.log"
+    # Append Process ID (PID) to ensure unique log files during concurrent execution
+    pid = os.getpid()
+    LOG_FILENAME = f"{log_prefix}_{TIMESTAMP}_{pid}.log"
     LOG_FILEPATH = os.path.join(log_dir, LOG_FILENAME)
 
     # Redirect standard output and standard error to the log file
@@ -42,8 +43,8 @@ def move_files_with_timestamp(source_dir, target_dir):
     Moves files from a source directory to a target directory,
     adding a timestamp to each filename.
     """
-    if not os.path.exists(target_dir):
-        os.makedirs(target_dir)
+    # Ensure target directory exists (thread/process safe)
+    os.makedirs(target_dir, exist_ok=True)
 
     for filename in os.listdir(source_dir):
         source_path = os.path.join(source_dir, filename)
