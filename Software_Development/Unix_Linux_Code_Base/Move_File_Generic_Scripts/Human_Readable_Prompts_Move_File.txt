@@ -1,0 +1,42 @@
+# Prompts to Recreate the File Mover Automation Project
+
+You can use the following prompts sequentially to recreate the current codebase.
+
+## Step 1: Basic File Mover Script
+Create a Python script named `move_files.py`.
+This script should move all files from a hardcoded "Source" directory to a "Target" directory.
+To prevent overwriting files, append the current timestamp (YYYYMMDDHHMMSS) to the filename of every file moved.
+
+## Step 2: Add Logging
+Update the script to include a logging system.
+Instead of just printing to the console, the script should write all output (standard output and errors) to a log file.
+The log file should be saved in a specific "Log" directory and have a timestamp in its filename.
+
+## Step 3: Parameterize Paths (Command Line Arguments)
+Modify the script to accept the Source Path, Target Path, and Log Path as command-line arguments.
+Use the `argparse` library so I can run the script like this:
+`python move_files.py --source_path "..." --target_path "..." --log_path "..."`
+
+## Step 4: Dynamic Log Folder and Filename
+Improve the logging logic to organize logs better:
+1. Automatically create a subfolder inside the main Log directory based on the name of the Source folder (e.g., if moving files from "Sales", create a "Sales" folder inside Logs).
+2. Name the log file using that same Source folder name (e.g., `Sales_20231027.log`).
+
+## Step 5: Virtual Environment Setup Script
+Create a Windows batch file named `setup_env.bat`.
+This script should check if a Python virtual environment folder named `venv` exists.
+If it doesn't exist, create it.
+Finally, display instructions on how to activate the environment.
+
+## Step 6: Requirements File
+Create a `requirements.txt` file.
+Since this project only uses standard Python libraries (os, sys, shutil, argparse, datetime), just add comments to the file stating that no external packages are needed.
+Also, update the `setup_env.bat` script to automatically install dependencies from this file using `pip` if the file exists.
+
+## Step 7: Documentation
+Create a comprehensive `README.md` file for the project.
+It should explain:
+1. What the script does.
+2. How to set up the virtual environment using the batch file.
+3. How to run the script with the required arguments.
+4. How the logging system works (folder creation and naming).
