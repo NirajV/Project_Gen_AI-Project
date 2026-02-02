@@ -1,0 +1,57 @@
+Prompt :- 1
+
+Give me 8 -12 Database Tables and DDL and DML with Sample Data .. Table Should have PK amd FK relation
+
+------------------------------------------------------
+Prompt :- 2
+
+I have Source DB EDW_STAGE_DB in the in the MYSQL .
+
+Here is the Connection detail about SQL DB
+
+Source DB -127.0.0.1 -P 3306 -u root -p"12345678"  EDW_STAGE_DB 
+
+First setup the DB Connection 
+
+------------------------------------------------------
+
+Prompt :- 3
+
+Create a Python script to execute the DDL statements and create the tables in the database using Source_Table_DDL_DML.sql
+
+------------------------------------------------------
+
+Prompt  :- 4
+
+create_source_tables.py parameteried the Database connection information and pull from db_connection.py
+
+------------------------------------------------------
+Prompt :- 5
+
+Can you add a check in create_source_tables.py to verify if the database already exists before trying to create it?
+
+------------------------------------------------------
+
+Prompt :- 6
+
+Now Source_Table_DDL_DML.sql exist in the Product_Mart_Load_Process\DDL_N_DML_Scripts so make the scripts adjust per the file located 
+
+------------------------------------------------------
+
+Prompt :- 7
+
+fix this issue - Traceback (most recent call last):
+  File "c:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 2, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+
+
+------------------------------------------------------
+Prompt :- 8
+
+Fix this issue 
+
+
+Prompt :- 3
+
+Can you write a complex SQL query to join these tables and find the top-selling product by revenue?

@@ -1,0 +1,7 @@
+$theme-colors:(
+    primary   : '#1976d2',
+    secondary : '#0d47a1'
+);
+@import './select/default.scss';
+@import './react-big-calendar/default.scss';
+@import '../../node_modules/react-redux-toastr/src/styles/index.scss';

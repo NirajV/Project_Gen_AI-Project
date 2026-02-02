@@ -1,0 +1,2278 @@
+[
+  {
+    "label": "Abiraterone Acetate",
+    "value": "Abiraterone Acetate"
+  },
+  {
+    "label": "Abraxane®",
+    "value": "Abraxane®"
+  },
+  {
+    "label": "Abstral®",
+    "value": "Abstral®"
+  },
+  {
+    "label": "Acalabrutinib",
+    "value": "Acalabrutinib"
+  },
+  {
+    "label": "Actiq®",
+    "value": "Actiq®"
+  },
+  {
+    "label": "Adcetris®",
+    "value": "Adcetris®"
+  },
+  {
+    "label": "Ado-trastuzumab Emtansine",
+    "value": "Ado-trastuzumab Emtansine"
+  },
+  {
+    "label": "Adriamycin",
+    "value": "Adriamycin"
+  },
+  {
+    "label": "Adrucil®",
+    "value": "Adrucil®"
+  },
+  {
+    "label": "Afatinib",
+    "value": "Afatinib"
+  },
+  {
+    "label": "Afinitor®",
+    "value": "Afinitor®"
+  },
+  {
+    "label": "Aldesleukin",
+    "value": "Aldesleukin"
+  },
+  {
+    "label": "Alecensa®",
+    "value": "Alecensa®"
+  },
+  {
+    "label": "Alectinib",
+    "value": "Alectinib"
+  },
+  {
+    "label": "Alemtuzumab",
+    "value": "Alemtuzumab"
+  },
+  {
+    "label": "Alimta®",
+    "value": "Alimta®"
+  },
+  {
+    "label": "Aliqopa ™",
+    "value": "Aliqopa ™"
+  },
+  {
+    "label": "Alkaban AQ",
+    "value": "Alkaban AQ"
+  },
+  {
+    "label": "Alkeran®",
+    "value": "Alkeran®"
+  },
+  {
+    "label": "Alkeran®",
+    "value": "Alkeran®"
+  },
+  {
+    "label": "All-Trans-Retinoic Acid",
+    "value": "All-Trans-Retinoic Acid"
+  },
+  {
+    "label": "Altretamine",
+    "value": "Altretamine"
+  },
+  {
+    "label": "Alunbrig™",
+    "value": "Alunbrig™"
+  },
+  {
+    "label": "Amethopterin",
+    "value": "Amethopterin"
+  },
+  {
+    "label": "Amifostine",
+    "value": "Amifostine"
+  },
+  {
+    "label": "Anandron",
+    "value": "Anandron"
+  },
+  {
+    "label": "Anastrozole",
+    "value": "Anastrozole"
+  },
+  {
+    "label": "Apalutamide",
+    "value": "Apalutamide"
+  },
+  {
+    "label": "Ara-C",
+    "value": "Ara-C"
+  },
+  {
+    "label": "Aranesp®",
+    "value": "Aranesp®"
+  },
+  {
+    "label": "Aredia®",
+    "value": "Aredia®"
+  },
+  {
+    "label": "Arimidex®",
+    "value": "Arimidex®"
+  },
+  {
+    "label": "Aromasin®",
+    "value": "Aromasin®"
+  },
+  {
+    "label": "Arranon®",
+    "value": "Arranon®"
+  },
+  {
+    "label": "Arsenic Trioxide",
+    "value": "Arsenic Trioxide"
+  },
+  {
+    "label": "Arzerra®",
+    "value": "Arzerra®"
+  },
+  {
+    "label": "Asparaginase",
+    "value": "Asparaginase"
+  },
+  {
+    "label": "Asparaginase Erwinia Chrysanthemi",
+    "value": "Asparaginase Erwinia Chrysanthemi"
+  },
+  {
+    "label": "Atezolizumab",
+    "value": "Atezolizumab"
+  },
+  {
+    "label": "ATRA",
+    "value": "ATRA"
+  },
+  {
+    "label": "Avastin®",
+    "value": "Avastin®"
+  },
+  {
+    "label": "Avelumab",
+    "value": "Avelumab"
+  },
+  {
+    "label": "Axicabtagene Ciloleucel",
+    "value": "Axicabtagene Ciloleucel"
+  },
+  {
+    "label": "Axitinib",
+    "value": "Axitinib"
+  },
+  {
+    "label": "Azacitidine",
+    "value": "Azacitidine"
+  },
+  {
+    "label": "Bacillus Calmette-Guerin",
+    "value": "Bacillus Calmette-Guerin"
+  },
+  {
+    "label": "Bavencio®",
+    "value": "Bavencio®"
+  },
+  {
+    "label": "BCG",
+    "value": "BCG"
+  },
+  {
+    "label": "BCNU",
+    "value": "BCNU"
+  },
+  {
+    "label": "Beleodaq®",
+    "value": "Beleodaq®"
+  },
+  {
+    "label": "Belinostat",
+    "value": "Belinostat"
+  },
+  {
+    "label": "Bendamustine Hydrochloride",
+    "value": "Bendamustine Hydrochloride"
+  },
+  {
+    "label": "Bendeka®",
+    "value": "Bendeka®"
+  },
+  {
+    "label": "Bespona ™",
+    "value": "Bespona ™"
+  },
+  {
+    "label": "Bevacizumab-awwb",
+    "value": "Bevacizumab-awwb"
+  },
+  {
+    "label": "Bevacizumab",
+    "value": "Bevacizumab"
+  },
+  {
+    "label": "Bexarotene",
+    "value": "Bexarotene"
+  },
+  {
+    "label": "Bexarotene Gel",
+    "value": "Bexarotene Gel"
+  },
+  {
+    "label": "Bicalutamide",
+    "value": "Bicalutamide"
+  },
+  {
+    "label": "BiCNU®",
+    "value": "BiCNU®"
+  },
+  {
+    "label": "Blenoxane®",
+    "value": "Blenoxane®"
+  },
+  {
+    "label": "Bleomycin",
+    "value": "Bleomycin"
+  },
+  {
+    "label": "Blinatumomab",
+    "value": "Blinatumomab"
+  },
+  {
+    "label": "Blincyto®",
+    "value": "Blincyto®"
+  },
+  {
+    "label": "Bortezomib",
+    "value": "Bortezomib"
+  },
+  {
+    "label": "Bosulif®",
+    "value": "Bosulif®"
+  },
+  {
+    "label": "Bosutinib",
+    "value": "Bosutinib"
+  },
+  {
+    "label": "Brentuximab Vedotin",
+    "value": "Brentuximab Vedotin"
+  },
+  {
+    "label": "Brigatinib",
+    "value": "Brigatinib"
+  },
+  {
+    "label": "Busulfan",
+    "value": "Busulfan"
+  },
+  {
+    "label": "Busulfex®",
+    "value": "Busulfex®"
+  },
+  {
+    "label": "Cabazitaxel",
+    "value": "Cabazitaxel"
+  },
+  {
+    "label": "Cabometyx™",
+    "value": "Cabometyx™"
+  },
+  {
+    "label": "Cabozantinib",
+    "value": "Cabozantinib"
+  },
+  {
+    "label": "Calcium Leucovorin",
+    "value": "Calcium Leucovorin"
+  },
+  {
+    "label": "Calquence ®",
+    "value": "Calquence ®"
+  },
+  {
+    "label": "Campath®",
+    "value": "Campath®"
+  },
+  {
+    "label": "Camptosar®",
+    "value": "Camptosar®"
+  },
+  {
+    "label": "Capecitabine",
+    "value": "Capecitabine"
+  },
+  {
+    "label": "Caprelsa®",
+    "value": "Caprelsa®"
+  },
+  {
+    "label": "Carac®",
+    "value": "Carac®"
+  },
+  {
+    "label": "Carboplatin",
+    "value": "Carboplatin"
+  },
+  {
+    "label": "Carfilzomib",
+    "value": "Carfilzomib"
+  },
+  {
+    "label": "Carmustine",
+    "value": "Carmustine"
+  },
+  {
+    "label": "Casodex®",
+    "value": "Casodex®"
+  },
+  {
+    "label": "CCNU",
+    "value": "CCNU"
+  },
+  {
+    "label": "CeeNU®",
+    "value": "CeeNU®"
+  },
+  {
+    "label": "Ceritinib",
+    "value": "Ceritinib"
+  },
+  {
+    "label": "Cerubidine®",
+    "value": "Cerubidine®"
+  },
+  {
+    "label": "Cetuximab",
+    "value": "Cetuximab"
+  },
+  {
+    "label": "Chlorambucil",
+    "value": "Chlorambucil"
+  },
+  {
+    "label": "Cialis®",
+    "value": "Cialis®"
+  },
+  {
+    "label": "Cisplatin",
+    "value": "Cisplatin"
+  },
+  {
+    "label": "Citrovorum Factor",
+    "value": "Citrovorum Factor"
+  },
+  {
+    "label": "Cladribine",
+    "value": "Cladribine"
+  },
+  {
+    "label": "Clofarabine",
+    "value": "Clofarabine"
+  },
+  {
+    "label": "Clolar ®",
+    "value": "Clolar ®"
+  },
+  {
+    "label": "Cobimetinib",
+    "value": "Cobimetinib"
+  },
+  {
+    "label": "Cometriq®",
+    "value": "Cometriq®"
+  },
+  {
+    "label": "Copanlisib",
+    "value": "Copanlisib"
+  },
+  {
+    "label": "Cosmegen",
+    "value": "Cosmegen"
+  },
+  {
+    "label": "Cotellic®",
+    "value": "Cotellic®"
+  },
+  {
+    "label": "CPT-11",
+    "value": "CPT-11"
+  },
+  {
+    "label": "Crizotinib",
+    "value": "Crizotinib"
+  },
+  {
+    "label": "Cyclophosphamide IV Formulation",
+    "value": "Cyclophosphamide IV Formulation"
+  },
+  {
+    "label": "Cyclophosphamide Oral Formulation",
+    "value": "Cyclophosphamide Oral Formulation"
+  },
+  {
+    "label": "Cyclosporine",
+    "value": "Cyclosporine"
+  },
+  {
+    "label": "Cyramza®",
+    "value": "Cyramza®"
+  },
+  {
+    "label": "Cytarabine",
+    "value": "Cytarabine"
+  },
+  {
+    "label": "Cytosar-U®",
+    "value": "Cytosar-U®"
+  },
+  {
+    "label": "Cytoxan®",
+    "value": "Cytoxan®"
+  },
+  {
+    "label": "Cytoxan®",
+    "value": "Cytoxan®"
+  },
+  {
+    "label": "Dabrafenib",
+    "value": "Dabrafenib"
+  },
+  {
+    "label": "Dacarbazine",
+    "value": "Dacarbazine"
+  },
+  {
+    "label": "Dacogen®",
+    "value": "Dacogen®"
+  },
+  {
+    "label": "Dactinomycin",
+    "value": "Dactinomycin"
+  },
+  {
+    "label": "Daratumumab",
+    "value": "Daratumumab"
+  },
+  {
+    "label": "Darbepoetin Alfa",
+    "value": "Darbepoetin Alfa"
+  },
+  {
+    "label": "Darzalex®",
+    "value": "Darzalex®"
+  },
+  {
+    "label": "Dasatinib",
+    "value": "Dasatinib"
+  },
+  {
+    "label": "Daunorubicin",
+    "value": "Daunorubicin"
+  },
+  {
+    "label": "Daunorubicin and Cytarabine Liposome",
+    "value": "Daunorubicin and Cytarabine Liposome"
+  },
+  {
+    "label": "Decadron®",
+    "value": "Decadron®"
+  },
+  {
+    "label": "Decitabine",
+    "value": "Decitabine"
+  },
+  {
+    "label": "Degarelix",
+    "value": "Degarelix"
+  },
+  {
+    "label": "Denosumab",
+    "value": "Denosumab"
+  },
+  {
+    "label": "DepoCyt®",
+    "value": "DepoCyt®"
+  },
+  {
+    "label": "Dexamethasone",
+    "value": "Dexamethasone"
+  },
+  {
+    "label": "Dexrazoxane",
+    "value": "Dexrazoxane"
+  },
+  {
+    "label": "Dinutuximab",
+    "value": "Dinutuximab"
+  },
+  {
+    "label": "Docetaxel",
+    "value": "Docetaxel"
+  },
+  {
+    "label": "Doxil®",
+    "value": "Doxil®"
+  },
+  {
+    "label": "Doxorubicin",
+    "value": "Doxorubicin"
+  },
+  {
+    "label": "Doxorubicin Liposomal",
+    "value": "Doxorubicin Liposomal"
+  },
+  {
+    "label": "Drogenil®",
+    "value": "Drogenil®"
+  },
+  {
+    "label": "Droxia®",
+    "value": "Droxia®"
+  },
+  {
+    "label": "DTIC-Dome®",
+    "value": "DTIC-Dome®"
+  },
+  {
+    "label": "DTIC",
+    "value": "DTIC"
+  },
+  {
+    "label": "Duragesic®",
+    "value": "Duragesic®"
+  },
+  {
+    "label": "Durvalumab",
+    "value": "Durvalumab"
+  },
+  {
+    "label": "Efudex®",
+    "value": "Efudex®"
+  },
+  {
+    "label": "Eligard® - For Men",
+    "value": "Eligard® - For Men"
+  },
+  {
+    "label": "Eligard® - For Women",
+    "value": "Eligard® - For Women"
+  },
+  {
+    "label": "Ellence®",
+    "value": "Ellence®"
+  },
+  {
+    "label": "Elotuzumab",
+    "value": "Elotuzumab"
+  },
+  {
+    "label": "Eloxatin®",
+    "value": "Eloxatin®"
+  },
+  {
+    "label": "Eltrombopag",
+    "value": "Eltrombopag"
+  },
+  {
+    "label": "Emcyt®",
+    "value": "Emcyt®"
+  },
+  {
+    "label": "Empliciti™",
+    "value": "Empliciti™"
+  },
+  {
+    "label": "Enasidenib",
+    "value": "Enasidenib"
+  },
+  {
+    "label": "Endoxan®",
+    "value": "Endoxan®"
+  },
+  {
+    "label": "Endoxan®",
+    "value": "Endoxan®"
+  },
+  {
+    "label": "Enzalutamide",
+    "value": "Enzalutamide"
+  },
+  {
+    "label": "Epirubicin",
+    "value": "Epirubicin"
+  },
+  {
+    "label": "Epoetin alfa-epbx",
+    "value": "Epoetin alfa-epbx"
+  },
+  {
+    "label": "Epoetin Alfa",
+    "value": "Epoetin Alfa"
+  },
+  {
+    "label": "Epogen®",
+    "value": "Epogen®"
+  },
+  {
+    "label": "Erbitux®",
+    "value": "Erbitux®"
+  },
+  {
+    "label": "Eribulin Mesylate",
+    "value": "Eribulin Mesylate"
+  },
+  {
+    "label": "Erivedge®",
+    "value": "Erivedge®"
+  },
+  {
+    "label": "Erleada ™",
+    "value": "Erleada ™"
+  },
+  {
+    "label": "Erlotinib",
+    "value": "Erlotinib"
+  },
+  {
+    "label": "Erwinaze",
+    "value": "Erwinaze"
+  },
+  {
+    "label": "Erwinia",
+    "value": "Erwinia"
+  },
+  {
+    "label": "Estramustine",
+    "value": "Estramustine"
+  },
+  {
+    "label": "Ethyol®",
+    "value": "Ethyol®"
+  },
+  {
+    "label": "Etopophos®",
+    "value": "Etopophos®"
+  },
+  {
+    "label": "Etoposide",
+    "value": "Etoposide"
+  },
+  {
+    "label": "Etoposide Oral Formula",
+    "value": "Etoposide Oral Formula"
+  },
+  {
+    "label": "Eulexin®",
+    "value": "Eulexin®"
+  },
+  {
+    "label": "Everolimus",
+    "value": "Everolimus"
+  },
+  {
+    "label": "Evista®",
+    "value": "Evista®"
+  },
+  {
+    "label": "Exemestane",
+    "value": "Exemestane"
+  },
+  {
+    "label": "Fareston®",
+    "value": "Fareston®"
+  },
+  {
+    "label": "Farydak®",
+    "value": "Farydak®"
+  },
+  {
+    "label": "Faslodex®",
+    "value": "Faslodex®"
+  },
+  {
+    "label": "Femara®",
+    "value": "Femara®"
+  },
+  {
+    "label": "Fentanyl Buccal Tablets",
+    "value": "Fentanyl Buccal Tablets"
+  },
+  {
+    "label": "Fentanyl Citrate",
+    "value": "Fentanyl Citrate"
+  },
+  {
+    "label": "Fentanyl IV/IM Formula",
+    "value": "Fentanyl IV/IM Formula"
+  },
+  {
+    "label": "Fentanyl Sublingual Tablets",
+    "value": "Fentanyl Sublingual Tablets"
+  },
+  {
+    "label": "Fentanyl Transdermal",
+    "value": "Fentanyl Transdermal"
+  },
+  {
+    "label": "Fentora®",
+    "value": "Fentora®"
+  },
+  {
+    "label": "Filgrastim",
+    "value": "Filgrastim"
+  },
+  {
+    "label": "Firmagon®",
+    "value": "Firmagon®"
+  },
+  {
+    "label": "Floxuridine",
+    "value": "Floxuridine"
+  },
+  {
+    "label": "Fludarabine",
+    "value": "Fludarabine"
+  },
+  {
+    "label": "Fludara®",
+    "value": "Fludara®"
+  },
+  {
+    "label": "Fluorodeoxyuridine",
+    "value": "Fluorodeoxyuridine"
+  },
+  {
+    "label": "Fluoroplex",
+    "value": "Fluoroplex"
+  },
+  {
+    "label": "Fluorouracil",
+    "value": "Fluorouracil"
+  },
+  {
+    "label": "Fluorouracil Topical",
+    "value": "Fluorouracil Topical"
+  },
+  {
+    "label": "Fluoxymesterone",
+    "value": "Fluoxymesterone"
+  },
+  {
+    "label": "Flutamide",
+    "value": "Flutamide"
+  },
+  {
+    "label": "Folex®",
+    "value": "Folex®"
+  },
+  {
+    "label": "Folinic Acid",
+    "value": "Folinic Acid"
+  },
+  {
+    "label": "Folotyn®",
+    "value": "Folotyn®"
+  },
+  {
+    "label": "FUDR®",
+    "value": "FUDR®"
+  },
+  {
+    "label": "Fulphila™",
+    "value": "Fulphila™"
+  },
+  {
+    "label": "Fulvestrant",
+    "value": "Fulvestrant"
+  },
+  {
+    "label": "G-CSF",
+    "value": "G-CSF"
+  },
+  {
+    "label": "Gabapentin",
+    "value": "Gabapentin"
+  },
+  {
+    "label": "Gazyva®",
+    "value": "Gazyva®"
+  },
+  {
+    "label": "Gefitinib",
+    "value": "Gefitinib"
+  },
+  {
+    "label": "Gemcitabine",
+    "value": "Gemcitabine"
+  },
+  {
+    "label": "Gemtuzumab Ozogamicin",
+    "value": "Gemtuzumab Ozogamicin"
+  },
+  {
+    "label": "Gemzar®",
+    "value": "Gemzar®"
+  },
+  {
+    "label": "Gengraf®",
+    "value": "Gengraf®"
+  },
+  {
+    "label": "Gilotrif®",
+    "value": "Gilotrif®"
+  },
+  {
+    "label": "Gleevec®",
+    "value": "Gleevec®"
+  },
+  {
+    "label": "GM-CSF",
+    "value": "GM-CSF"
+  },
+  {
+    "label": "Goserelin Acetate - For Men",
+    "value": "Goserelin Acetate - For Men"
+  },
+  {
+    "label": "Goserelin Acetate - For Women",
+    "value": "Goserelin Acetate - For Women"
+  },
+  {
+    "label": "Halaven®",
+    "value": "Halaven®"
+  },
+  {
+    "label": "Halotestin®",
+    "value": "Halotestin®"
+  },
+  {
+    "label": "Herceptin®",
+    "value": "Herceptin®"
+  },
+  {
+    "label": "Hexalen®",
+    "value": "Hexalen®"
+  },
+  {
+    "label": "HMM",
+    "value": "HMM"
+  },
+  {
+    "label": "Horizant®",
+    "value": "Horizant®"
+  },
+  {
+    "label": "Hycamtin®",
+    "value": "Hycamtin®"
+  },
+  {
+    "label": "Hycamtin®",
+    "value": "Hycamtin®"
+  },
+  {
+    "label": "Hydrea®",
+    "value": "Hydrea®"
+  },
+  {
+    "label": "Hydroxyurea",
+    "value": "Hydroxyurea"
+  },
+  {
+    "label": "Ibrance®",
+    "value": "Ibrance®"
+  },
+  {
+    "label": "Ibritumomab Tiuxetan",
+    "value": "Ibritumomab Tiuxetan"
+  },
+  {
+    "label": "Ibrutinib",
+    "value": "Ibrutinib"
+  },
+  {
+    "label": "Iclusig®",
+    "value": "Iclusig®"
+  },
+  {
+    "label": "Idamycin®",
+    "value": "Idamycin®"
+  },
+  {
+    "label": "Idarubicin",
+    "value": "Idarubicin"
+  },
+  {
+    "label": "Idelalisib",
+    "value": "Idelalisib"
+  },
+  {
+    "label": "Idhifa®",
+    "value": "Idhifa®"
+  },
+  {
+    "label": "Ifex®",
+    "value": "Ifex®"
+  },
+  {
+    "label": "Ifosfamide",
+    "value": "Ifosfamide"
+  },
+  {
+    "label": "IL-11",
+    "value": "IL-11"
+  },
+  {
+    "label": "IL-2",
+    "value": "IL-2"
+  },
+  {
+    "label": "Imatinib",
+    "value": "Imatinib"
+  },
+  {
+    "label": "Imbruvica®",
+    "value": "Imbruvica®"
+  },
+  {
+    "label": "Imfinzi™",
+    "value": "Imfinzi™"
+  },
+  {
+    "label": "Imlygic™",
+    "value": "Imlygic™"
+  },
+  {
+    "label": "Immediate Release Pill",
+    "value": "Immediate Release Pill"
+  },
+  {
+    "label": "Inlyta®",
+    "value": "Inlyta®"
+  },
+  {
+    "label": "Inotuzumab Ozogamicin",
+    "value": "Inotuzumab Ozogamicin"
+  },
+  {
+    "label": "Interferon Alfa 2B",
+    "value": "Interferon Alfa 2B"
+  },
+  {
+    "label": "Interleukin-2",
+    "value": "Interleukin-2"
+  },
+  {
+    "label": "Intravenous Immunoglobulin",
+    "value": "Intravenous Immunoglobulin"
+  },
+  {
+    "label": "Intravesicular Mitomycin",
+    "value": "Intravesicular Mitomycin"
+  },
+  {
+    "label": "Intron-A®",
+    "value": "Intron-A®"
+  },
+  {
+    "label": "Ipilimumab",
+    "value": "Ipilimumab"
+  },
+  {
+    "label": "Iressa®",
+    "value": "Iressa®"
+  },
+  {
+    "label": "Irinotecan",
+    "value": "Irinotecan"
+  },
+  {
+    "label": "Irinotecan Liposome",
+    "value": "Irinotecan Liposome"
+  },
+  {
+    "label": "Istodax®",
+    "value": "Istodax®"
+  },
+  {
+    "label": "IVIG",
+    "value": "IVIG"
+  },
+  {
+    "label": "Ixabepilone",
+    "value": "Ixabepilone"
+  },
+  {
+    "label": "Ixazomib",
+    "value": "Ixazomib"
+  },
+  {
+    "label": "Ixempra®",
+    "value": "Ixempra®"
+  },
+  {
+    "label": "Jakafi®",
+    "value": "Jakafi®"
+  },
+  {
+    "label": "Jevtana ®",
+    "value": "Jevtana ®"
+  },
+  {
+    "label": "Kadcyla®",
+    "value": "Kadcyla®"
+  },
+  {
+    "label": "Kepivance®",
+    "value": "Kepivance®"
+  },
+  {
+    "label": "Ketoconazole",
+    "value": "Ketoconazole"
+  },
+  {
+    "label": "Keytruda®",
+    "value": "Keytruda®"
+  },
+  {
+    "label": "Kisqali®",
+    "value": "Kisqali®"
+  },
+  {
+    "label": "Kymriah™",
+    "value": "Kymriah™"
+  },
+  {
+    "label": "Kyprolis®",
+    "value": "Kyprolis®"
+  },
+  {
+    "label": "L-pam",
+    "value": "L-pam"
+  },
+  {
+    "label": "L-PAM",
+    "value": "L-PAM"
+  },
+  {
+    "label": "Lanreotide",
+    "value": "Lanreotide"
+  },
+  {
+    "label": "Lapatinib",
+    "value": "Lapatinib"
+  },
+  {
+    "label": "Lartruvo™",
+    "value": "Lartruvo™"
+  },
+  {
+    "label": "Lenalidomide",
+    "value": "Lenalidomide"
+  },
+  {
+    "label": "Lenvatinib",
+    "value": "Lenvatinib"
+  },
+  {
+    "label": "Lenvima™",
+    "value": "Lenvima™"
+  },
+  {
+    "label": "Letrozole",
+    "value": "Letrozole"
+  },
+  {
+    "label": "Leucovorin",
+    "value": "Leucovorin"
+  },
+  {
+    "label": "Leukeran®",
+    "value": "Leukeran®"
+  },
+  {
+    "label": "Leukine®",
+    "value": "Leukine®"
+  },
+  {
+    "label": "Leuprolide Acetate - For Men",
+    "value": "Leuprolide Acetate - For Men"
+  },
+  {
+    "label": "Leuprolide Acetate - For Women",
+    "value": "Leuprolide Acetate - For Women"
+  },
+  {
+    "label": "Leustatin®",
+    "value": "Leustatin®"
+  },
+  {
+    "label": "Levitra®",
+    "value": "Levitra®"
+  },
+  {
+    "label": "Lomustine",
+    "value": "Lomustine"
+  },
+  {
+    "label": "Lonsurf®",
+    "value": "Lonsurf®"
+  },
+  {
+    "label": "Lupron Depot® - For Men",
+    "value": "Lupron Depot® - For Men"
+  },
+  {
+    "label": "Lupron Depot® - For Women",
+    "value": "Lupron Depot® - For Women"
+  },
+  {
+    "label": "Lupron® - For Men",
+    "value": "Lupron® - For Men"
+  },
+  {
+    "label": "Lupron® - For Women",
+    "value": "Lupron® - For Women"
+  },
+  {
+    "label": "Lynparza™",
+    "value": "Lynparza™"
+  },
+  {
+    "label": "Lysodren®",
+    "value": "Lysodren®"
+  },
+  {
+    "label": "Matulane®",
+    "value": "Matulane®"
+  },
+  {
+    "label": "Mechlorethamine",
+    "value": "Mechlorethamine"
+  },
+  {
+    "label": "Mechlorethamine Topical",
+    "value": "Mechlorethamine Topical"
+  },
+  {
+    "label": "Megace-ES®",
+    "value": "Megace-ES®"
+  },
+  {
+    "label": "Megace®",
+    "value": "Megace®"
+  },
+  {
+    "label": "Megestrol",
+    "value": "Megestrol"
+  },
+  {
+    "label": "Mekinist®",
+    "value": "Mekinist®"
+  },
+  {
+    "label": "Melphalan; Oral",
+    "value": "Melphalan; Oral"
+  },
+  {
+    "label": "Melphalan - IV",
+    "value": "Melphalan - IV"
+  },
+  {
+    "label": "Melphalan Oral",
+    "value": "Melphalan Oral"
+  },
+  {
+    "label": "Mercaptopurine",
+    "value": "Mercaptopurine"
+  },
+  {
+    "label": "Mesna",
+    "value": "Mesna"
+  },
+  {
+    "label": "Mesnex®",
+    "value": "Mesnex®"
+  },
+  {
+    "label": "Methotrexate",
+    "value": "Methotrexate"
+  },
+  {
+    "label": "Methotrexate Oral Formulation",
+    "value": "Methotrexate Oral Formulation"
+  },
+  {
+    "label": "Methylprednisolone Sodium Succinate",
+    "value": "Methylprednisolone Sodium Succinate"
+  },
+  {
+    "label": "Mexate®",
+    "value": "Mexate®"
+  },
+  {
+    "label": "Midostaurin",
+    "value": "Midostaurin"
+  },
+  {
+    "label": "Mitomycin-C - Given into the bladder",
+    "value": "Mitomycin-C - Given into the bladder"
+  },
+  {
+    "label": "Mitomycin-C",
+    "value": "Mitomycin-C"
+  },
+  {
+    "label": "Mitomycin",
+    "value": "Mitomycin"
+  },
+  {
+    "label": "Mitotane",
+    "value": "Mitotane"
+  },
+  {
+    "label": "Mitoxantrone",
+    "value": "Mitoxantrone"
+  },
+  {
+    "label": "Morphine Sulfate - IV Formulation",
+    "value": "Morphine Sulfate - IV Formulation"
+  },
+  {
+    "label": "Morphine Sulfate - Long Acting Pill",
+    "value": "Morphine Sulfate - Long Acting Pill"
+  },
+  {
+    "label": "Morphine Sulfate - Short Acting Pill",
+    "value": "Morphine Sulfate - Short Acting Pill"
+  },
+  {
+    "label": "Morphine Sulfate",
+    "value": "Morphine Sulfate"
+  },
+  {
+    "label": "Morphine Sulfate Liquid",
+    "value": "Morphine Sulfate Liquid"
+  },
+  {
+    "label": "Morphine Sulfate Oral",
+    "value": "Morphine Sulfate Oral"
+  },
+  {
+    "label": "MSIR",
+    "value": "MSIR"
+  },
+  {
+    "label": "MS Contin",
+    "value": "MS Contin"
+  },
+  {
+    "label": "MTX",
+    "value": "MTX"
+  },
+  {
+    "label": "MTX",
+    "value": "MTX"
+  },
+  {
+    "label": "Mustargen®",
+    "value": "Mustargen®"
+  },
+  {
+    "label": "Mutamycin",
+    "value": "Mutamycin"
+  },
+  {
+    "label": "Mutamycin®",
+    "value": "Mutamycin®"
+  },
+  {
+    "label": "Mvasi",
+    "value": "Mvasi"
+  },
+  {
+    "label": "Myleran®",
+    "value": "Myleran®"
+  },
+  {
+    "label": "Mylotarg ™",
+    "value": "Mylotarg ™"
+  },
+  {
+    "label": "Navelbine®",
+    "value": "Navelbine®"
+  },
+  {
+    "label": "Necitumumab",
+    "value": "Necitumumab"
+  },
+  {
+    "label": "Nelarabine",
+    "value": "Nelarabine"
+  },
+  {
+    "label": "Neoral®",
+    "value": "Neoral®"
+  },
+  {
+    "label": "Neosar®",
+    "value": "Neosar®"
+  },
+  {
+    "label": "Neosar®",
+    "value": "Neosar®"
+  },
+  {
+    "label": "Neratinib",
+    "value": "Neratinib"
+  },
+  {
+    "label": "Nerlynx™",
+    "value": "Nerlynx™"
+  },
+  {
+    "label": "Neulasta®",
+    "value": "Neulasta®"
+  },
+  {
+    "label": "Neulasta® On-Pro On Body Injector",
+    "value": "Neulasta® On-Pro On Body Injector"
+  },
+  {
+    "label": "Neumega®",
+    "value": "Neumega®"
+  },
+  {
+    "label": "Neupogen®",
+    "value": "Neupogen®"
+  },
+  {
+    "label": "Neurontin®",
+    "value": "Neurontin®"
+  },
+  {
+    "label": "Nexavar®",
+    "value": "Nexavar®"
+  },
+  {
+    "label": "Nilandron",
+    "value": "Nilandron"
+  },
+  {
+    "label": "Nilotinib",
+    "value": "Nilotinib"
+  },
+  {
+    "label": "Nilutamide",
+    "value": "Nilutamide"
+  },
+  {
+    "label": "Ninlaro®",
+    "value": "Ninlaro®"
+  },
+  {
+    "label": "Nipent®",
+    "value": "Nipent®"
+  },
+  {
+    "label": "Niraparib",
+    "value": "Niraparib"
+  },
+  {
+    "label": "Nitrogen Mustard",
+    "value": "Nitrogen Mustard"
+  },
+  {
+    "label": "Nitrogen Mustard",
+    "value": "Nitrogen Mustard"
+  },
+  {
+    "label": "Nivolumab",
+    "value": "Nivolumab"
+  },
+  {
+    "label": "Nizoral®",
+    "value": "Nizoral®"
+  },
+  {
+    "label": "Nolvadex®",
+    "value": "Nolvadex®"
+  },
+  {
+    "label": "Novantrone®",
+    "value": "Novantrone®"
+  },
+  {
+    "label": "Nplate®",
+    "value": "Nplate®"
+  },
+  {
+    "label": "Obinutuzumab",
+    "value": "Obinutuzumab"
+  },
+  {
+    "label": "Octreotide",
+    "value": "Octreotide"
+  },
+  {
+    "label": "Odomzo®",
+    "value": "Odomzo®"
+  },
+  {
+    "label": "Ofatumumab",
+    "value": "Ofatumumab"
+  },
+  {
+    "label": "Ogivri™",
+    "value": "Ogivri™"
+  },
+  {
+    "label": "Olaparib",
+    "value": "Olaparib"
+  },
+  {
+    "label": "Olaratumab",
+    "value": "Olaratumab"
+  },
+  {
+    "label": "Omacetaxine Mepesuccinate",
+    "value": "Omacetaxine Mepesuccinate"
+  },
+  {
+    "label": "Oncaspar",
+    "value": "Oncaspar"
+  },
+  {
+    "label": "Oncovin®",
+    "value": "Oncovin®"
+  },
+  {
+    "label": "Onivyde™",
+    "value": "Onivyde™"
+  },
+  {
+    "label": "Opdivo®",
+    "value": "Opdivo®"
+  },
+  {
+    "label": "Oprelvekin",
+    "value": "Oprelvekin"
+  },
+  {
+    "label": "Osimertinib",
+    "value": "Osimertinib"
+  },
+  {
+    "label": "Oxaliplatin",
+    "value": "Oxaliplatin"
+  },
+  {
+    "label": "Oxycodone/Acetaminophen",
+    "value": "Oxycodone/Acetaminophen"
+  },
+  {
+    "label": "Oxycodone/Aspirin",
+    "value": "Oxycodone/Aspirin"
+  },
+  {
+    "label": "Oxycodone - Liquid Formulation",
+    "value": "Oxycodone - Liquid Formulation"
+  },
+  {
+    "label": "Oxycodone Oral Immediate Release Pill",
+    "value": "Oxycodone Oral Immediate Release Pill"
+  },
+  {
+    "label": "Oxycodone Oral Liquid Formulation",
+    "value": "Oxycodone Oral Liquid Formulation"
+  },
+  {
+    "label": "Oxycodone Sustained/Extended Release Pill",
+    "value": "Oxycodone Sustained/Extended Release Pill"
+  },
+  {
+    "label": "OxyContin®",
+    "value": "OxyContin®"
+  },
+  {
+    "label": "Oxydose®",
+    "value": "Oxydose®"
+  },
+  {
+    "label": "Paciltaxel",
+    "value": "Paciltaxel"
+  },
+  {
+    "label": "Paclitaxel",
+    "value": "Paclitaxel"
+  },
+  {
+    "label": "Palbociclib",
+    "value": "Palbociclib"
+  },
+  {
+    "label": "Palifermin",
+    "value": "Palifermin"
+  },
+  {
+    "label": "Pamidronate",
+    "value": "Pamidronate"
+  },
+  {
+    "label": "Panitumumab",
+    "value": "Panitumumab"
+  },
+  {
+    "label": "Panobinostat",
+    "value": "Panobinostat"
+  },
+  {
+    "label": "Paraplatin®",
+    "value": "Paraplatin®"
+  },
+  {
+    "label": "Pazopanib",
+    "value": "Pazopanib"
+  },
+  {
+    "label": "Pegaspargase",
+    "value": "Pegaspargase"
+  },
+  {
+    "label": "Pegfilgrastim-jmdb",
+    "value": "Pegfilgrastim-jmdb"
+  },
+  {
+    "label": "Pegfilgrastim",
+    "value": "Pegfilgrastim"
+  },
+  {
+    "label": "Pegfilgrastim On-Pro",
+    "value": "Pegfilgrastim On-Pro"
+  },
+  {
+    "label": "Peginterferon Alfa-2b (Sylatron",
+    "value": "Peginterferon Alfa-2b (Sylatron"
+  },
+  {
+    "label": "Pembrolizumab",
+    "value": "Pembrolizumab"
+  },
+  {
+    "label": "Pemetrexed",
+    "value": "Pemetrexed"
+  },
+  {
+    "label": "Pentostatin",
+    "value": "Pentostatin"
+  },
+  {
+    "label": "Percocet®",
+    "value": "Percocet®"
+  },
+  {
+    "label": "Percodan",
+    "value": "Percodan"
+  },
+  {
+    "label": "Percolone®",
+    "value": "Percolone®"
+  },
+  {
+    "label": "Perjeta®",
+    "value": "Perjeta®"
+  },
+  {
+    "label": "Pertuzumab",
+    "value": "Pertuzumab"
+  },
+  {
+    "label": "Pharmorubicin®",
+    "value": "Pharmorubicin®"
+  },
+  {
+    "label": "Platinol®",
+    "value": "Platinol®"
+  },
+  {
+    "label": "Pomalidomide",
+    "value": "Pomalidomide"
+  },
+  {
+    "label": "Pomalyst®",
+    "value": "Pomalyst®"
+  },
+  {
+    "label": "Ponatinib",
+    "value": "Ponatinib"
+  },
+  {
+    "label": "Portrazza™",
+    "value": "Portrazza™"
+  },
+  {
+    "label": "Pralatrexate",
+    "value": "Pralatrexate"
+  },
+  {
+    "label": "Prednisone",
+    "value": "Prednisone"
+  },
+  {
+    "label": "Prednisone Intensol",
+    "value": "Prednisone Intensol"
+  },
+  {
+    "label": "Procarbazine",
+    "value": "Procarbazine"
+  },
+  {
+    "label": "Procrit®",
+    "value": "Procrit®"
+  },
+  {
+    "label": "Proleukin®",
+    "value": "Proleukin®"
+  },
+  {
+    "label": "Promacta®",
+    "value": "Promacta®"
+  },
+  {
+    "label": "Prostap® - For Men",
+    "value": "Prostap® - For Men"
+  },
+  {
+    "label": "Prostap® - For Women",
+    "value": "Prostap® - For Women"
+  },
+  {
+    "label": "Protein Bound",
+    "value": "Protein Bound"
+  },
+  {
+    "label": "Provenge®",
+    "value": "Provenge®"
+  },
+  {
+    "label": "Purinethol®",
+    "value": "Purinethol®"
+  },
+  {
+    "label": "Purixan®",
+    "value": "Purixan®"
+  },
+  {
+    "label": "Raloxifene",
+    "value": "Raloxifene"
+  },
+  {
+    "label": "Ramucirumab",
+    "value": "Ramucirumab"
+  },
+  {
+    "label": "Regorafenib",
+    "value": "Regorafenib"
+  },
+  {
+    "label": "Restasis®",
+    "value": "Restasis®"
+  },
+  {
+    "label": "Retacrit™",
+    "value": "Retacrit™"
+  },
+  {
+    "label": "Revlimid®",
+    "value": "Revlimid®"
+  },
+  {
+    "label": "Rheumatrex®",
+    "value": "Rheumatrex®"
+  },
+  {
+    "label": "Rheumatrex®",
+    "value": "Rheumatrex®"
+  },
+  {
+    "label": "Ribociclib",
+    "value": "Ribociclib"
+  },
+  {
+    "label": "Rituxan Hycela™",
+    "value": "Rituxan Hycela™"
+  },
+  {
+    "label": "Rituxan®",
+    "value": "Rituxan®"
+  },
+  {
+    "label": "Rituximab",
+    "value": "Rituximab"
+  },
+  {
+    "label": "Rituximab and Hyaluronidase Human Injection",
+    "value": "Rituximab and Hyaluronidase Human Injection"
+  },
+  {
+    "label": "Roferon-A®",
+    "value": "Roferon-A®"
+  },
+  {
+    "label": "Romidepsin",
+    "value": "Romidepsin"
+  },
+  {
+    "label": "Romiplostim",
+    "value": "Romiplostim"
+  },
+  {
+    "label": "Roxanol®",
+    "value": "Roxanol®"
+  },
+  {
+    "label": "Roxicodone®",
+    "value": "Roxicodone®"
+  },
+  {
+    "label": "Rubex",
+    "value": "Rubex"
+  },
+  {
+    "label": "Rubraca™",
+    "value": "Rubraca™"
+  },
+  {
+    "label": "Rucaparib",
+    "value": "Rucaparib"
+  },
+  {
+    "label": "Ruxolitinib",
+    "value": "Ruxolitinib"
+  },
+  {
+    "label": "Rydapt®",
+    "value": "Rydapt®"
+  },
+  {
+    "label": "Sandimmune®",
+    "value": "Sandimmune®"
+  },
+  {
+    "label": "Sandostatin LAR®",
+    "value": "Sandostatin LAR®"
+  },
+  {
+    "label": "Sandostatin®",
+    "value": "Sandostatin®"
+  },
+  {
+    "label": "Sargramostim",
+    "value": "Sargramostim"
+  },
+  {
+    "label": "Sildenafil",
+    "value": "Sildenafil"
+  },
+  {
+    "label": "Sipuleucel-T",
+    "value": "Sipuleucel-T"
+  },
+  {
+    "label": "SOLU-MEDROL ®",
+    "value": "SOLU-MEDROL ®"
+  },
+  {
+    "label": "Somatuline® Depot",
+    "value": "Somatuline® Depot"
+  },
+  {
+    "label": "Sonidegib",
+    "value": "Sonidegib"
+  },
+  {
+    "label": "Sorafenib",
+    "value": "Sorafenib"
+  },
+  {
+    "label": "Sprycel®",
+    "value": "Sprycel®"
+  },
+  {
+    "label": "Sterapred®",
+    "value": "Sterapred®"
+  },
+  {
+    "label": "Stivarga®",
+    "value": "Stivarga®"
+  },
+  {
+    "label": "Streptozocin",
+    "value": "Streptozocin"
+  },
+  {
+    "label": "Sublimaze®",
+    "value": "Sublimaze®"
+  },
+  {
+    "label": "Sunitinib",
+    "value": "Sunitinib"
+  },
+  {
+    "label": "Sutent®",
+    "value": "Sutent®"
+  },
+  {
+    "label": "Synribo®",
+    "value": "Synribo®"
+  },
+  {
+    "label": "T-VEC",
+    "value": "T-VEC"
+  },
+  {
+    "label": "Tabloid®",
+    "value": "Tabloid®"
+  },
+  {
+    "label": "Tadalafil",
+    "value": "Tadalafil"
+  },
+  {
+    "label": "Tafinlar®",
+    "value": "Tafinlar®"
+  },
+  {
+    "label": "Tagrisso™",
+    "value": "Tagrisso™"
+  },
+  {
+    "label": "Talimogene Laherparepvec",
+    "value": "Talimogene Laherparepvec"
+  },
+  {
+    "label": "Tamoxifen",
+    "value": "Tamoxifen"
+  },
+  {
+    "label": "Tarceva®",
+    "value": "Tarceva®"
+  },
+  {
+    "label": "Targretin®",
+    "value": "Targretin®"
+  },
+  {
+    "label": "Targretin® Gel Formulation",
+    "value": "Targretin® Gel Formulation"
+  },
+  {
+    "label": "Tasigna®",
+    "value": "Tasigna®"
+  },
+  {
+    "label": "Taxol®",
+    "value": "Taxol®"
+  },
+  {
+    "label": "Taxotere",
+    "value": "Taxotere"
+  },
+  {
+    "label": "Tecentriq™",
+    "value": "Tecentriq™"
+  },
+  {
+    "label": "Telotristat",
+    "value": "Telotristat"
+  },
+  {
+    "label": "Temodar®",
+    "value": "Temodar®"
+  },
+  {
+    "label": "Temodar® IV formulation",
+    "value": "Temodar® IV formulation"
+  },
+  {
+    "label": "Temozolomide",
+    "value": "Temozolomide"
+  },
+  {
+    "label": "Temozolomide IV formulation",
+    "value": "Temozolomide IV formulation"
+  },
+  {
+    "label": "Temsirolimus",
+    "value": "Temsirolimus"
+  },
+  {
+    "label": "Teniposide",
+    "value": "Teniposide"
+  },
+  {
+    "label": "Tepadina®",
+    "value": "Tepadina®"
+  },
+  {
+    "label": "Thalidomide",
+    "value": "Thalidomide"
+  },
+  {
+    "label": "Thalomid®",
+    "value": "Thalomid®"
+  },
+  {
+    "label": "TheraCys®",
+    "value": "TheraCys®"
+  },
+  {
+    "label": "Thioguanine",
+    "value": "Thioguanine"
+  },
+  {
+    "label": "Thioplex®",
+    "value": "Thioplex®"
+  },
+  {
+    "label": "Thiotepa",
+    "value": "Thiotepa"
+  },
+  {
+    "label": "TICE®",
+    "value": "TICE®"
+  },
+  {
+    "label": "Tisagenlecleucel",
+    "value": "Tisagenlecleucel"
+  },
+  {
+    "label": "Toposar®",
+    "value": "Toposar®"
+  },
+  {
+    "label": "Topotecan IV",
+    "value": "Topotecan IV"
+  },
+  {
+    "label": "Topotecan Oral",
+    "value": "Topotecan Oral"
+  },
+  {
+    "label": "Toremifene",
+    "value": "Toremifene"
+  },
+  {
+    "label": "Torisel®",
+    "value": "Torisel®"
+  },
+  {
+    "label": "Totect®",
+    "value": "Totect®"
+  },
+  {
+    "label": "Trabectedin",
+    "value": "Trabectedin"
+  },
+  {
+    "label": "Trametinib",
+    "value": "Trametinib"
+  },
+  {
+    "label": "Trastuzumab-dkst",
+    "value": "Trastuzumab-dkst"
+  },
+  {
+    "label": "Trastuzumab",
+    "value": "Trastuzumab"
+  },
+  {
+    "label": "Treanda®",
+    "value": "Treanda®"
+  },
+  {
+    "label": "Trelstar LA® and Trelstar Depot®",
+    "value": "Trelstar LA® and Trelstar Depot®"
+  },
+  {
+    "label": "Tretinoin",
+    "value": "Tretinoin"
+  },
+  {
+    "label": "Trexall®",
+    "value": "Trexall®"
+  },
+  {
+    "label": "Trifluridine and Tipiracil",
+    "value": "Trifluridine and Tipiracil"
+  },
+  {
+    "label": "Triptorelin",
+    "value": "Triptorelin"
+  },
+  {
+    "label": "Trisenox®",
+    "value": "Trisenox®"
+  },
+  {
+    "label": "Tykerb®",
+    "value": "Tykerb®"
+  },
+  {
+    "label": "Unituxin™",
+    "value": "Unituxin™"
+  },
+  {
+    "label": "Uridine Triacetate",
+    "value": "Uridine Triacetate"
+  },
+  {
+    "label": "Valchor™",
+    "value": "Valchor™"
+  },
+  {
+    "label": "Vandetanib",
+    "value": "Vandetanib"
+  },
+  {
+    "label": "Vardenafil Hydrochloride",
+    "value": "Vardenafil Hydrochloride"
+  },
+  {
+    "label": "VCR",
+    "value": "VCR"
+  },
+  {
+    "label": "Vectibix®",
+    "value": "Vectibix®"
+  },
+  {
+    "label": "Velban®",
+    "value": "Velban®"
+  },
+  {
+    "label": "Velcade®",
+    "value": "Velcade®"
+  },
+  {
+    "label": "Vemurafenib",
+    "value": "Vemurafenib"
+  },
+  {
+    "label": "Venclexta™",
+    "value": "Venclexta™"
+  },
+  {
+    "label": "Venetoclax",
+    "value": "Venetoclax"
+  },
+  {
+    "label": "VePesid®",
+    "value": "VePesid®"
+  },
+  {
+    "label": "VePesid®",
+    "value": "VePesid®"
+  },
+  {
+    "label": "Verzenio™",
+    "value": "Verzenio™"
+  },
+  {
+    "label": "Vesanoid®",
+    "value": "Vesanoid®"
+  },
+  {
+    "label": "Viadur® - For Men",
+    "value": "Viadur® - For Men"
+  },
+  {
+    "label": "Viadur® - For Women",
+    "value": "Viadur® - For Women"
+  },
+  {
+    "label": "Viagra®",
+    "value": "Viagra®"
+  },
+  {
+    "label": "Vidaza®",
+    "value": "Vidaza®"
+  },
+  {
+    "label": "Vinblastine",
+    "value": "Vinblastine"
+  },
+  {
+    "label": "Vincasar PFS®",
+    "value": "Vincasar PFS®"
+  },
+  {
+    "label": "Vincristine",
+    "value": "Vincristine"
+  },
+  {
+    "label": "Vinorelbine",
+    "value": "Vinorelbine"
+  },
+  {
+    "label": "Vismodegib",
+    "value": "Vismodegib"
+  },
+  {
+    "label": "Vistogard®",
+    "value": "Vistogard®"
+  },
+  {
+    "label": "VM-26",
+    "value": "VM-26"
+  },
+  {
+    "label": "Vorinostat",
+    "value": "Vorinostat"
+  },
+  {
+    "label": "Votrient®",
+    "value": "Votrient®"
+  },
+  {
+    "label": "VP-16",
+    "value": "VP-16"
+  },
+  {
+    "label": "VP-16",
+    "value": "VP-16"
+  },
+  {
+    "label": "Vumon®",
+    "value": "Vumon®"
+  },
+  {
+    "label": "Vyxeos™",
+    "value": "Vyxeos™"
+  },
+  {
+    "label": "Xalkori®",
+    "value": "Xalkori®"
+  },
+  {
+    "label": "Xeloda®",
+    "value": "Xeloda®"
+  },
+  {
+    "label": "Xermelo™",
+    "value": "Xermelo™"
+  },
+  {
+    "label": "Xgeva®",
+    "value": "Xgeva®"
+  },
+  {
+    "label": "Xtandi®",
+    "value": "Xtandi®"
+  },
+  {
+    "label": "Yervoy®",
+    "value": "Yervoy®"
+  },
+  {
+    "label": "Yescarta™",
+    "value": "Yescarta™"
+  },
+  {
+    "label": "Yondelis®",
+    "value": "Yondelis®"
+  },
+  {
+    "label": "Zaltrap®",
+    "value": "Zaltrap®"
+  },
+  {
+    "label": "Zanosar®",
+    "value": "Zanosar®"
+  },
+  {
+    "label": "Zejula™",
+    "value": "Zejula™"
+  },
+  {
+    "label": "Zelboraf®",
+    "value": "Zelboraf®"
+  },
+  {
+    "label": "Zevalin®",
+    "value": "Zevalin®"
+  },
+  {
+    "label": "Zinecard®",
+    "value": "Zinecard®"
+  },
+  {
+    "label": "Ziv-aflibercept",
+    "value": "Ziv-aflibercept"
+  },
+  {
+    "label": "Zoladex® - For Men",
+    "value": "Zoladex® - For Men"
+  },
+  {
+    "label": "Zoladex® - For Women",
+    "value": "Zoladex® - For Women"
+  },
+  {
+    "label": "Zoledronic Acid",
+    "value": "Zoledronic Acid"
+  },
+  {
+    "label": "Zolinza®",
+    "value": "Zolinza®"
+  },
+  {
+    "label": "Zometa®",
+    "value": "Zometa®"
+  },
+  {
+    "label": "Zydelig®",
+    "value": "Zydelig®"
+  },
+  {
+    "label": "Zykadia®",
+    "value": "Zykadia®"
+  },
+  {
+    "label": "Zytiga®",
+    "value": "Zytiga®"
+  },
+  {
+    "label": "2-CDA",
+    "value": "2-CDA"
+  },
+  {
+    "label": "5-FU",
+    "value": "5-FU"
+  },
+  {
+    "label": "5-FU",
+    "value": "5-FU"
+  },
+  {
+    "label": "6-MP",
+    "value": "6-MP"
+  },
+  {
+    "label": "6-TG",
+    "value": "6-TG"
+  }
+]
