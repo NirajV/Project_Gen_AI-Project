@@ -1,2 +1,0 @@
-# chemo-calendar-backend
-
