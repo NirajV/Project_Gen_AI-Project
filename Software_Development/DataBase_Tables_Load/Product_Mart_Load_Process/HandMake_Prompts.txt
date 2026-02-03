@@ -149,7 +149,7 @@ ORDER BY
     Prompt :- 14
 
 Add Feature create a Master Python scripts to load end to end 
-and make sure if the source table exist in db, not need to drop and recreate
+and make sure if the source table exist in db, not need to drop
 and don;t drop Target table too
 
 ------------------------------------------------------
@@ -198,3 +198,5 @@ Error inserting data into Categories: 1364 (HY000): Field 'CategoryID' doesn't h
 An error occurred: Failed to populate Categories
 MySQL connection closed.
 Process finished.
+----------------------------------------------------------------------------------------------
+Build an application to do [goal] with a UI that lets the user do [task] in the [environment].
