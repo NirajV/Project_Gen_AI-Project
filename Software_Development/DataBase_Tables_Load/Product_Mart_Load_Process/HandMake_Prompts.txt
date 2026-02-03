@@ -175,3 +175,13 @@ drop this file to this location -- C:\Users\niraj\OneDrive\SFTP\Outbound
 Keep the File Header as an file Header and file name Product_Revenue_Analysis_Date_TimeShamp.txt
 
 -------------------------------------------------------
+Prompt :- 18
+
+Create Vissual envinornment for this Product and keep the PreRequistic into the Visual envinornment
+Updated the Requirment.txt file too 
+
+-------------------------------------------------------
+
+Prompt :- 19
+
+Based on the code create Project_Documentation.md
