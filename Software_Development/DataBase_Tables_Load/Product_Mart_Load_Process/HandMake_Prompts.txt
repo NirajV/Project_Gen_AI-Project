@@ -1,0 +1,187 @@
+Prompt :- 1
+
+Give me 8 -12 Database Tables and DDL and DML with Sample Data .. Table Should have PK amd FK relation
+
+------------------------------------------------------
+Prompt :- 2
+
+I have Source DB EDW_STAGE_DB in the in the MYSQL .
+
+Here is the Connection detail about SQL DB
+
+Source DB -127.0.0.1 -P 3306 -u root -p"12345678"  EDW_STAGE_DB 
+
+First setup the DB Connection 
+
+------------------------------------------------------
+
+Prompt :- 3
+
+Create a Python script to execute the DDL statements and create the tables in the database using Source_Table_DDL_DML.sql
+
+------------------------------------------------------
+
+Prompt  :- 4
+
+create_source_tables.py parameteried the Database connection information and pull from db_connection.py
+
+------------------------------------------------------
+Prompt :- 5
+
+Can you add a check in create_source_tables.py to verify if the database already exists before trying to create it?
+
+------------------------------------------------------
+
+Prompt :- 6
+
+Now Source_Table_DDL_DML.sql exist in the Product_Mart_Load_Process\DDL_N_DML_Scripts so make the scripts adjust per the file located 
+
+------------------------------------------------------
+
+Prompt :- 7
+
+fix this issue - Traceback (most recent call last):
+  File "c:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 2, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+
+
+------------------------------------------------------
+Prompt :- 8
+
+Fix this issue 
+
+Executing SQL statements...
+MySQL connection closed.
+Traceback (most recent call last):
+  File "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 60, in <module>
+    execute_sql_script(sql_file)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 35, in execute_sql_script
+    for result in cursor.execute(sql_script, multi=True):
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MySQLCursor.execute() got an unexpected keyword argument 'multi'
+
+------------------------------------------------------  
+
+Prompt :- 9
+
+fix this issue  File "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 95, in <module>
+    execute_sql_script(sql_file)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 46, in execute_sql_script
+    with open(sql_file_path, 'r') as f:
+              ^^^^^^^^^^^^^
+NameError: name 'sql_file_path' is not defined
+
+------------------------------------------------------
+
+Prompt :- 10
+
+Can you write a complex SQL query to join these tables and find the top-selling product by revenue?
+
+------------------------------------------------------
+
+Prompt :- 11  
+
+Based on this below query create the table create Target_Table_DDL.SQL
+
+SELECT 
+    p.ProductName,
+    c.CategoryName,
+    s.SupplierName,
+    SUM(od.Quantity) AS TotalUnitsSold,
+    COUNT(DISTINCT o.OrderID) AS NumberOfOrders,
+    -- Calculate revenue using the price at the time of order (from OrderDetails)
+    SUM(od.Quantity * od.UnitPrice) AS TotalRevenue
+FROM 
+    OrderDetails od
+    INNER JOIN Products p ON od.ProductID = p.ProductID
+    INNER JOIN Orders o ON od.OrderID = o.OrderID
+    INNER JOIN Categories c ON p.CategoryID = c.CategoryID
+    INNER JOIN Suppliers s ON p.SupplierID = s.SupplierID
+WHERE 
+    -- Filter to include only completed sales (adjust based on business logic)
+    o.Status IN ('Shipped', 'Delivered')
+GROUP BY 
+    p.ProductID, 
+    p.ProductName, 
+    c.CategoryName, 
+    s.SupplierName
+ORDER BY 
+    TotalRevenue DESC;
+
+----------------------------------------------------
+
+Prompt  :- 12
+
+Based on Target_Table_DDL.sql create the create_target_table.py
+-------------------------------------------------------
+
+Prompt :- 13
+
+Add feature 
+Populate Target Table with Aggregated Data
+INSERT INTO EDW_DIM_DB.Product_Revenue_Analysis (ProductName, CategoryName, SupplierName, TotalUnitsSold, NumberOfOrders, TotalRevenue)
+SELECT 
+    p.ProductName,
+    c.CategoryName,
+    s.SupplierName,
+    SUM(od.Quantity) AS TotalUnitsSold,
+    COUNT(DISTINCT o.OrderID) AS NumberOfOrders,
+    -- Calculate revenue using the price at the time of order (from OrderDetails)
+    SUM(od.Quantity * od.UnitPrice) AS TotalRevenue
+FROM 
+    OrderDetails od
+    INNER JOIN EDW_STAGE_DB.Products p ON od.ProductID = p.ProductID
+    INNER JOIN EDW_STAGE_DB.Orders o ON od.OrderID = o.OrderID
+    INNER JOIN EDW_STAGE_DB.Categories c ON p.CategoryID = c.CategoryID
+    INNER JOIN EDW_STAGE_DB.Suppliers s ON p.SupplierID = s.SupplierID
+WHERE 
+    -- Filter to include only completed sales
+    o.Status IN ('Shipped', 'Delivered')
+GROUP BY 
+    p.ProductID, p.ProductName, c.CategoryName, s.SupplierName
+ORDER BY 
+    TotalRevenue DESC;
+
+--------------------------------------------
+    Prompt :- 14
+
+Add Feature create a Master Python scripts to load end to end 
+and make sure if the source table exist in db, not need to drop
+and don;t drop Target table too
+
+------------------------------------------------------
+
+Prompt :- 15
+
+Add Feature need to capture log about the progress of the code load this log file 
+in the Status_Logs folder and Status_log_DateTimestage.txt file for each run 
+
+------------------------------------------------------
+
+Prompt :- 16
+
+Add Feature to generate the Fake Data for all the source table and insert into the table 
+without droping or deleting existing data and keep the PK-FK intacted
+
+-------------------------------------------------------
+Prompt :- 17
+
+Add Fearure - Generate the "|" Delimiter file from the Table EDW_DIM_DB.Product_Revenue_Analysis
+drop this file to this location -- C:\Users\niraj\OneDrive\SFTP\Outbound
+
+Keep the File Header as an file Header and file name Product_Revenue_Analysis_Date_TimeShamp.txt
+
+-------------------------------------------------------
+Prompt :- 18
+
+Create Vissual envinornment for this Product and keep the PreRequistic into the Visual envinornment
+Updated the Requirment.txt file too 
+
+-------------------------------------------------------
+
+Prompt :- 19
+
+Based on the code create Project_Documentation.md

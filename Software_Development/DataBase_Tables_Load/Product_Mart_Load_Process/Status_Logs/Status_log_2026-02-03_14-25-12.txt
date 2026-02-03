@@ -1,0 +1,8 @@
+2026-02-03 14:25:12.267953: Master load process started.
+2026-02-03 14:25:12.344553: Source tables already exist. Skipping creation.
+2026-02-03 14:25:12.345063: Creating target table...
+2026-02-03 14:25:12.379384: Successfully executed Target_Table_DDL.sql
+2026-02-03 14:25:12.379930: Loading data into product revenue table...
+2026-02-03 14:25:12.389102: Successfully executed Load_Product_Revenue.sql
+2026-02-03 14:25:12.389606: Master load process finished successfully.
+2026-02-03 14:25:12.390457: Database connection closed.
