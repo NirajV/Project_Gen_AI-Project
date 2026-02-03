@@ -51,6 +51,17 @@ Prompt :- 8
 
 Fix this issue 
 
+Executing SQL statements...
+MySQL connection closed.
+Traceback (most recent call last):
+  File "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 60, in <module>
+    execute_sql_script(sql_file)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 35, in execute_sql_script
+    for result in cursor.execute(sql_script, multi=True):
+                  ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MySQLCursor.execute() got an unexpected keyword argument 'multi'
+
 
 Prompt :- 3
 

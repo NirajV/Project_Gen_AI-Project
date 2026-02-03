@@ -31,15 +31,50 @@ def execute_sql_script(script_path):
             sql_script = file.read()
 
         print("Executing SQL statements...")
-        # multi=True allows executing multiple statements (DDL & DML) in one go
-        for result in cursor.execute(sql_script, multi=True):
-            pass  # Iterate through the generator to ensure all statements execute
-        # The `multi=True` parameter for cursor.execute() has been deprecated
-        # in newer versions of mysql-connector-python, causing the TypeError.
-        # A reliable method is to split the script into individual statements.
-        for statement in sql_script.split(';'):
+
+        # In newer versions of mysql-connector-python, the `multi=True`
+        # argument is removed. The execute() method now handles multiple
+        # statements by default. We must iterate through the results
+        # using the cursor.nextset() method.
+        
+        # We split the script by semicolons to execute statement by statement.
+        # This is a simple and effective way to handle most SQL scripts.
+        # Note: This might not work for scripts containing stored procedures
+        # that redefine the DELIMITER.
+        
+        # Read the entire SQL script from the file
+        with open(sql_file_path, 'r') as f:
+            sql_script = f.read()
+
+        # Split the script into individual statements
+        statements = sql_script.split(';')
+
+        for statement in statements:
+            # Skip empty statements that can result from splitting
             if statement.strip():
-                cursor.execute(statement)
+                try:
+                    cursor.execute(statement)
+                    # If the statement was a DML (INSERT, UPDATE, etc.),
+                    # commit the transaction.
+                    if cursor.rowcount > 0:
+                         print(f"Rows affected: {cursor.rowcount}")
+                    
+                    # If the statement was a SELECT, we need to fetch the results
+                    # to avoid an "Unread result" error.
+                    if cursor.with_rows:
+                        cursor.fetchall()
+
+                except mysql.connector.Error as err:
+                    # If a single statement fails, print the error and stop.
+                    print(f"Failed to execute statement: {statement.strip()}")
+                    print(f"Error: {err}")
+                    # Rollback changes on error
+                    cnx.rollback()
+                    raise
+
+        # If all statements executed successfully, commit the transaction.
+        cnx.commit()
+
 
         connection.commit()
         print("Success: Database tables created and data inserted.")
