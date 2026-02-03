@@ -164,39 +164,6 @@ in the Status_Logs folder and Status_log_DateTimestage.txt file for each run
 Prompt :- 16
 
 Add Feature to generate the Fake Data for all the source table and insert into the table 
+without droping or deleting existing data and keep the PK-FK intacted
 
 -------------------------------------------------------
-
-Prompt :- 17
-
-fix this issue - Data cleared.
-Error inserting data into Categories: 1364 (HY000): Field 'CategoryID' doesn't have a default value
-An error occurred: Failed to populate Categories
-MySQL connection closed.
-Process finished.
-
-------------------------------------------------------
-
-Prompt :- 18
-
-Fix this issue 
-
-python populate_source_with_fake_data.py
-Starting fake data generation for source tables...
-MySQL Database connection successful
-Clearing existing data from source tables...
-Truncating table OrderDetails...
-Truncating table Orders...
-Truncating table Products...
-Truncating table Customers...
-Truncating table Shippers...
-Truncating table Employees...
-Truncating table Suppliers...
-Truncating table Categories...
-Data cleared.
-Error inserting data into Categories: 1364 (HY000): Field 'CategoryID' doesn't have a default value
-An error occurred: Failed to populate Categories
-MySQL connection closed.
-Process finished.
-----------------------------------------------------------------------------------------------
-Build an application to do [goal] with a UI that lets the user do [task] in the [environment].
