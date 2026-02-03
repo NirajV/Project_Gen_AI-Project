@@ -2,8 +2,6 @@
    1. DDL - DATA DEFINITION LANGUAGE (Create Tables)
    ================================================================================== */
 
---DROP DATABASE IF EXISTS `EDW_STAGE_DB`;
----CREATE DATABASE `EDW_STAGE_DB`;
 USE EDW_STAGE_DB;
 -- 1. Create Source Tables for Data Loading
 -- 1. Departments Table

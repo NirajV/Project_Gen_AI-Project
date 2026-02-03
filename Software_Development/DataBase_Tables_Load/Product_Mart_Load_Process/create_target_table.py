@@ -4,9 +4,9 @@ from mysql.connector import Error
 from db_connection import create_db_connection, HOST, PORT, USER, PASSWORD, DATABASE
 
 def execute_sql_script(script_path):
-    # Connect to MySQL server without selecting a specific database
-    # This is necessary because the SQL script creates the database
-    connection = create_db_connection(HOST, USER, PASSWORD, None, PORT)
+    # Connect to MySQL server
+    # We connect directly to the database as it should already exist from the source load
+    connection = create_db_connection(HOST, USER, PASSWORD, DATABASE, PORT)
 
     if connection is None:
         print("Exiting: Could not establish connection to MySQL server.")
@@ -15,13 +15,6 @@ def execute_sql_script(script_path):
     cursor = connection.cursor()
 
     try:
-        cursor.execute(f"SHOW DATABASES LIKE '{DATABASE}'")
-        result = cursor.fetchone()
-        if result:
-            print(f"Database '{DATABASE}' already exists.")
-        else:
-            print(f"Database '{DATABASE}' does not exist.")
-
         if not os.path.exists(script_path):
             print(f"Error: SQL file not found at {script_path}")
             return
@@ -31,16 +24,6 @@ def execute_sql_script(script_path):
             sql_script = file.read()
 
         print("Executing SQL statements...")
-
-        # In newer versions of mysql-connector-python, the `multi=True`
-        # argument is removed. The execute() method now handles multiple
-        # statements by default. We must iterate through the results
-        # using the cursor.nextset() method.
-        
-        # We split the script by semicolons to execute statement by statement.
-        # This is a simple and effective way to handle most SQL scripts.
-        # Note: This might not work for scripts containing stored procedures
-        # that redefine the DELIMITER.
         
         # Split the script into individual statements
         statements = sql_script.split(';')
@@ -61,7 +44,6 @@ def execute_sql_script(script_path):
                         cursor.fetchall()
 
                 except mysql.connector.Error as err:
-                    # If a single statement fails, print the error and stop.
                     print(f"Failed to execute statement: {statement.strip()}")
                     print(f"Error: {err}")
                     # Rollback changes on error
@@ -70,7 +52,7 @@ def execute_sql_script(script_path):
 
         # If all statements executed successfully, commit the transaction.
         connection.commit()
-        print("Success: Database tables created and data inserted.")
+        print("Success: Target table created and data populated.")
 
     except Error as e:
         print(f"MySQL Error: {e}")
@@ -81,8 +63,8 @@ def execute_sql_script(script_path):
             print("MySQL connection closed.")
 
 if __name__ == "__main__":
-    # Locate the SQL file in the same directory as this script
+    # Locate the SQL file in the DDL_N_DML_Scripts directory
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    sql_file = os.path.join(current_dir, "DDL_N_DML_Scripts", "Source_Table_DDL_DML.sql")
+    sql_file = os.path.join(current_dir, "DDL_N_DML_Scripts", "Target_Table_DDL.sql")
     
     execute_sql_script(sql_file)

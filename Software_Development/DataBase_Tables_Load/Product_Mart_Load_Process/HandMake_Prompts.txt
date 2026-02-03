@@ -62,7 +62,85 @@ Traceback (most recent call last):
                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: MySQLCursor.execute() got an unexpected keyword argument 'multi'
 
+------------------------------------------------------  
 
-Prompt :- 3
+Prompt :- 9
+
+fix this issue  File "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 95, in <module>
+    execute_sql_script(sql_file)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\create_source_tables.py", line 46, in execute_sql_script
+    with open(sql_file_path, 'r') as f:
+              ^^^^^^^^^^^^^
+NameError: name 'sql_file_path' is not defined
+
+------------------------------------------------------
+
+Prompt :- 10
 
 Can you write a complex SQL query to join these tables and find the top-selling product by revenue?
+
+------------------------------------------------------
+
+Prompt :- 11  
+
+Based on this below query create the table create Target_Table_DDL.SQL
+
+SELECT 
+    p.ProductName,
+    c.CategoryName,
+    s.SupplierName,
+    SUM(od.Quantity) AS TotalUnitsSold,
+    COUNT(DISTINCT o.OrderID) AS NumberOfOrders,
+    -- Calculate revenue using the price at the time of order (from OrderDetails)
+    SUM(od.Quantity * od.UnitPrice) AS TotalRevenue
+FROM 
+    OrderDetails od
+    INNER JOIN Products p ON od.ProductID = p.ProductID
+    INNER JOIN Orders o ON od.OrderID = o.OrderID
+    INNER JOIN Categories c ON p.CategoryID = c.CategoryID
+    INNER JOIN Suppliers s ON p.SupplierID = s.SupplierID
+WHERE 
+    -- Filter to include only completed sales (adjust based on business logic)
+    o.Status IN ('Shipped', 'Delivered')
+GROUP BY 
+    p.ProductID, 
+    p.ProductName, 
+    c.CategoryName, 
+    s.SupplierName
+ORDER BY 
+    TotalRevenue DESC;
+
+----------------------------------------------------
+
+Prompt  :- 12
+
+Based on Target_Table_DDL.sql create the create_target_table.py
+-------------------------------------------------------
+
+Prompt :- 13
+
+Add feature 
+Populate Target Table with Aggregated Data
+INSERT INTO EDW_DIM_DB.Product_Revenue_Analysis (ProductName, CategoryName, SupplierName, TotalUnitsSold, NumberOfOrders, TotalRevenue)
+SELECT 
+    p.ProductName,
+    c.CategoryName,
+    s.SupplierName,
+    SUM(od.Quantity) AS TotalUnitsSold,
+    COUNT(DISTINCT o.OrderID) AS NumberOfOrders,
+    -- Calculate revenue using the price at the time of order (from OrderDetails)
+    SUM(od.Quantity * od.UnitPrice) AS TotalRevenue
+FROM 
+    OrderDetails od
+    INNER JOIN EDW_STAGE_DB.Products p ON od.ProductID = p.ProductID
+    INNER JOIN EDW_STAGE_DB.Orders o ON od.OrderID = o.OrderID
+    INNER JOIN EDW_STAGE_DB.Categories c ON p.CategoryID = c.CategoryID
+    INNER JOIN EDW_STAGE_DB.Suppliers s ON p.SupplierID = s.SupplierID
+WHERE 
+    -- Filter to include only completed sales
+    o.Status IN ('Shipped', 'Delivered')
+GROUP BY 
+    p.ProductID, p.ProductName, c.CategoryName, s.SupplierName
+ORDER BY 
+    TotalRevenue DESC;
