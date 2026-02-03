@@ -144,3 +144,57 @@ GROUP BY
     p.ProductID, p.ProductName, c.CategoryName, s.SupplierName
 ORDER BY 
     TotalRevenue DESC;
+
+--------------------------------------------
+    Prompt :- 14
+
+Add Feature create a Master Python scripts to load end to end 
+and make sure if the source table exist in db, not need to drop and recreate
+and don;t drop Target table too
+
+------------------------------------------------------
+
+Prompt :- 15
+
+Add Feature need to capture log about the progress of the code load this log file 
+in the Status_Logs folder and Status_log_DateTimestage.txt file for each run 
+
+------------------------------------------------------
+
+Prompt :- 16
+
+Add Feature to generate the Fake Data for all the source table and insert into the table 
+
+-------------------------------------------------------
+
+Prompt :- 17
+
+fix this issue - Data cleared.
+Error inserting data into Categories: 1364 (HY000): Field 'CategoryID' doesn't have a default value
+An error occurred: Failed to populate Categories
+MySQL connection closed.
+Process finished.
+
+------------------------------------------------------
+
+Prompt :- 18
+
+Fix this issue 
+
+python populate_source_with_fake_data.py
+Starting fake data generation for source tables...
+MySQL Database connection successful
+Clearing existing data from source tables...
+Truncating table OrderDetails...
+Truncating table Orders...
+Truncating table Products...
+Truncating table Customers...
+Truncating table Shippers...
+Truncating table Employees...
+Truncating table Suppliers...
+Truncating table Categories...
+Data cleared.
+Error inserting data into Categories: 1364 (HY000): Field 'CategoryID' doesn't have a default value
+An error occurred: Failed to populate Categories
+MySQL connection closed.
+Process finished.

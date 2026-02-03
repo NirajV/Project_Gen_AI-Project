@@ -1,0 +1,66 @@
+2026-02-03 09:53:37,698 - INFO - Starting end-to-end data load process...
+2026-02-03 09:53:37,839 - INFO - package: mysql.connector.plugins
+2026-02-03 09:53:37,839 - INFO - plugin_name: caching_sha2_password
+2026-02-03 09:53:37,840 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-02-03 09:53:37,842 - INFO - ----------------------------------------------------------------------
+2026-02-03 09:53:37,842 - INFO - Executing script: create_source_tables.py
+2026-02-03 09:53:37,843 - INFO - ----------------------------------------------------------------------
+2026-02-03 09:53:38,479 - INFO - --- Output from create_source_tables.py ---
+2026-02-03 09:53:38,479 - INFO - MySQL Database connection successful
+2026-02-03 09:53:38,479 - INFO - Database 'EDW_STAGE_DB' already exists.
+2026-02-03 09:53:38,479 - INFO - Reading SQL file: C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\DDL_N_DML_Scripts\Source_Table_DDL_DML.sql
+2026-02-03 09:53:38,479 - INFO - Executing SQL statements...
+2026-02-03 09:53:38,479 - INFO - Rows affected: 1
+2026-02-03 09:53:38,479 - INFO - Success: Database tables created and data inserted.
+2026-02-03 09:53:38,479 - INFO - MySQL connection closed.
+2026-02-03 09:53:38,480 - INFO - Successfully executed: create_source_tables.py
+2026-02-03 09:53:38,480 - INFO - ----------------------------------------------------------------------
+2026-02-03 09:53:38,480 - INFO - Executing script: populate_source_with_fake_data.py
+2026-02-03 09:53:38,480 - INFO - ----------------------------------------------------------------------
+2026-02-03 09:53:39,480 - INFO - --- Output from populate_source_with_fake_data.py ---
+2026-02-03 09:53:39,480 - INFO - Starting fake data generation for source tables...
+2026-02-03 09:53:39,480 - INFO - MySQL Database connection successful
+2026-02-03 09:53:39,480 - INFO - Clearing existing data from source tables...
+2026-02-03 09:53:39,480 - INFO - Truncating table OrderDetails...
+2026-02-03 09:53:39,480 - INFO - Truncating table Orders...
+2026-02-03 09:53:39,481 - INFO - Truncating table Products...
+2026-02-03 09:53:39,481 - INFO - Truncating table Customers...
+2026-02-03 09:53:39,481 - INFO - Truncating table Shippers...
+2026-02-03 09:53:39,481 - INFO - Truncating table Employees...
+2026-02-03 09:53:39,482 - INFO - Truncating table Suppliers...
+2026-02-03 09:53:39,482 - INFO - Truncating table Categories...
+2026-02-03 09:53:39,482 - INFO - Data cleared.
+2026-02-03 09:53:39,482 - INFO - Successfully inserted 8 records into Categories.
+2026-02-03 09:53:39,483 - INFO - Successfully inserted 15 records into Suppliers.
+2026-02-03 09:53:39,483 - INFO - Successfully inserted 10 records into Employees.
+2026-02-03 09:53:39,483 - INFO - Successfully inserted 3 records into Shippers.
+2026-02-03 09:53:39,484 - INFO - Error inserting data into Customers: 1406 (22001): Data too long for column 'Country' at row 44
+2026-02-03 09:53:39,484 - INFO - An error occurred: Failed to populate Customers
+2026-02-03 09:53:39,484 - INFO - MySQL connection closed.
+2026-02-03 09:53:39,484 - INFO - Process finished.
+2026-02-03 09:53:39,484 - INFO - Successfully executed: populate_source_with_fake_data.py
+2026-02-03 09:53:39,484 - INFO - ----------------------------------------------------------------------
+2026-02-03 09:53:39,484 - INFO - Executing script: create_target_table.py
+2026-02-03 09:53:39,485 - INFO - ----------------------------------------------------------------------
+2026-02-03 09:53:39,832 - INFO - --- Output from create_target_table.py ---
+2026-02-03 09:53:39,832 - INFO - MySQL Database connection successful
+2026-02-03 09:53:39,833 - INFO - Reading SQL file: C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\DDL_N_DML_Scripts\Target_Table_DDL.sql
+2026-02-03 09:53:39,833 - INFO - Executing SQL statements...
+2026-02-03 09:53:39,833 - INFO - Rows affected: 1
+2026-02-03 09:53:39,834 - INFO - Success: Target table created and data populated.
+2026-02-03 09:53:39,834 - INFO - MySQL connection closed.
+2026-02-03 09:53:39,835 - INFO - Successfully executed: create_target_table.py
+2026-02-03 09:53:39,835 - INFO - ----------------------------------------------------------------------
+2026-02-03 09:53:39,835 - INFO - Executing script: load_product_revenue.py
+2026-02-03 09:53:39,835 - INFO - ----------------------------------------------------------------------
+2026-02-03 09:53:40,131 - INFO - --- Output from load_product_revenue.py ---
+2026-02-03 09:53:40,131 - INFO - MySQL Database connection successful
+2026-02-03 09:53:40,131 - INFO - Reading SQL file: C:\Users\niraj\Project_Gen_AI\Project\Software_Development\DataBase_Tables_Load\Product_Mart_Load_Process\DDL_N_DML_Scripts\Load_Product_Revenue.sql
+2026-02-03 09:53:40,132 - INFO - Executing SQL statements...
+2026-02-03 09:53:40,132 - INFO - Success: Data loaded into Product_Revenue_Analysis table.
+2026-02-03 09:53:40,132 - INFO - MySQL connection closed.
+2026-02-03 09:53:40,132 - INFO - Successfully executed: load_product_revenue.py
+2026-02-03 09:53:40,132 - INFO - ======================================================================
+2026-02-03 09:53:40,133 - INFO - End-to-end data load process completed successfully!
+2026-02-03 09:53:40,133 - INFO - ======================================================================
+2026-02-03 09:53:40,134 - INFO - MySQL connection closed.
