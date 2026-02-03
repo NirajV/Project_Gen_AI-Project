@@ -167,3 +167,11 @@ Add Feature to generate the Fake Data for all the source table and insert into t
 without droping or deleting existing data and keep the PK-FK intacted
 
 -------------------------------------------------------
+Prompt :- 17
+
+Add Fearure - Generate the "|" Delimiter file from the Table EDW_DIM_DB.Product_Revenue_Analysis
+drop this file to this location -- C:\Users\niraj\OneDrive\SFTP\Outbound
+
+Keep the File Header as an file Header and file name Product_Revenue_Analysis_Date_TimeShamp.txt
+
+-------------------------------------------------------
